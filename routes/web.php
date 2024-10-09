@@ -2,7 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+Route::view('/', 'home');
 
-    return view('welcome');
-});
+Route::view('/profile', 'profile');
+
+Route::view('/visi-misi', 'visi-misi');
+
+Route::view('/contact', 'contact');

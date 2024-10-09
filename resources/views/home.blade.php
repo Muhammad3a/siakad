@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>siakad</title>
-</head>
-<body>
-    
-    hello world !!
 
-</body>
-</html>
+<x-app-layout >
+
+    <section class="text-center py-16">
+        <h2 class="text-3xl font-semibold mb-8">Selamat datang di Sistem Akademik SMK AZZAINIYYAH</h2>
+    </section>
+
+    home
+
+</x-app-layout>
