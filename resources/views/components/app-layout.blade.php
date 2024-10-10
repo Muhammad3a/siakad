@@ -43,7 +43,7 @@
         <header class="flex justify-between items-center p-4 bg-white shadow-md">
             <div class="flex items-center space-x-4">
                 <img src="{{ asset('img/Logo_Azzainiyyah[1].png') }}" alt="Logo Azzainiyyah" class="h-10">
-                <h1 class="text-xl font-bold">SIAKAD</h1>
+                <h1 class="text-xl font-bold">SMK AZZAINIYYAH</h1>
             </div>
 
             <x-navbar/>
