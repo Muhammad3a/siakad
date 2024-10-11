@@ -11,6 +11,7 @@
         <x-nav-link href="/contact" >Contact</x-nav-link>
         
         <x-nav-link href="/siakad" >Siakad</x-nav-link>
-
+        
+        <x-nav-link href="/users" >Users</x-nav-link>
 
     </nav>
