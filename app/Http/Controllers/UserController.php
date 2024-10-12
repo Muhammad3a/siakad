@@ -32,7 +32,7 @@ class UserController extends Controller
 
                 'method' => 'post',
 
-                'url' => '/users',
+                'url' => route('users.store'),
 
                 'submit_text' => 'Create',
             ]
@@ -47,7 +47,7 @@ class UserController extends Controller
 
         User::create($request->validated());
 
-        return redirect('/users');
+        return to_route('users.index');
     }
 
     function show(User $user)
@@ -72,7 +72,7 @@ class UserController extends Controller
 
                 'method' => 'put',
 
-                'url' => '/users/' . $user->id,
+                'url' => route('users.update', $user),
 
                 'submit_text' => 'Update',
             ]
@@ -86,7 +86,7 @@ class UserController extends Controller
 
         $user->update($request->validated());
 
-        return redirect('/users');
+        return to_route('users.index');
     }
 
     function destroy(User $user)
@@ -94,6 +94,6 @@ class UserController extends Controller
         $user->delete();
 
 
-        return redirect('users');
+        return redirect(route('users.index'));
     }
 }

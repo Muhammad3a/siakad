@@ -1,7 +1,7 @@
 
 <x-app-layout title="Contact">
 
-    <x-slot name="heading">Contact</x-slot name="heading">
+    <x-slot name="heading">Contact</x-slot>
 
     contact
 
